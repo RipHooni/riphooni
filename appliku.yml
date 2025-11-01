@@ -1,0 +1,8 @@
+"build_settings":
+  "build_image": "python-3.11"
+  "environment_variables": []
+"services":
+  "web":
+    "scale": 1
+    "command": "python -m uvicorn PersonalSite.asgi:application"
+"databases": {}
